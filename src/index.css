@@ -1,0 +1,75 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(51, 51, 76, 255);
+}
+.map-container {
+  height: 400px;
+}
+
+.sidebar {
+  background-color: rgba(35, 55, 75, 0.9);
+  color: #fff;
+  padding: 6px 12px;
+  font-family: monospace;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 12px;
+  border-radius: 4px;
+}
+
+.Map {
+  border: 10px solid black;
+  margin: 10px 0px;
+}
+
+.container {
+  display: "flex";
+  justify-content: "space-around";
+}
+
+button {
+  background-color: rgb(0, 141, 26);
+  font-size: medium;
+  border-radius: 10px;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.map-controls {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+input {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  background-color: #a3f798;
+  border: 1px solid #ccc;
+  padding: 8px;
+  font-size: 16px;
+  color: #333;
+  
+}
+
+.btn{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
